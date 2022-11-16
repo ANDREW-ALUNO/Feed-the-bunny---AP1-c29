@@ -11,7 +11,9 @@ class Link{
         })
         World.add(world,this.link)
     }
-
+    detache(){
+        World.remove(world,this.link)
+    }
 
 }
 
